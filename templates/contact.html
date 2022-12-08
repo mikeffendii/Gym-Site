@@ -1,0 +1,74 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+
+<!-- Breadcrumb Section Begin -->
+<section class="breadcrumb-section set-bg" data-setbg="{% static 'img/breadcrumb-bg.jpg' %}">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <div class="breadcrumb-text">
+                    <h2>Contact Us</h2>
+                    <div class="bt-option">
+                        <a href="./index.html">Home</a>
+                        <a href="#">Pages</a>
+                        <span>Contact us</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Breadcrumb Section End -->
+
+<!-- Contact Section Begin -->
+<section class="contact-section spad">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="section-title contact-title">
+                    <span>Contact Us</span>
+                    <h2>GET IN TOUCH</h2>
+                </div>
+                <div class="contact-widget">
+                    <div class="cw-text">
+                        <i class="fa fa-map-marker"></i>
+                        <p>Township Blvd, Kanju, Swat,<br/>Khyber Pakhtunkhwa, Pakistan</p>
+                    </div>
+                    <div class="cw-text">
+                        <i class="fa fa-mobile"></i>
+                        <ul>
+                            <li>+92 347 9065337</li>
+                            <li>+92 312 7578121</li>
+                        </ul>
+                    </div>
+                    <div class="cw-text email">
+                        <i class="fa fa-envelope"></i>
+                        <p>Townhealthgym@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="leave-comment">
+                    <form action="#">
+                        <input type="text" placeholder="Name">
+                        <input type="text" placeholder="Email">
+                        <input type="text" placeholder="Website">
+                        <textarea placeholder="Comment"></textarea>
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3275.6834989840017!2d72.33968141457837!3d34.81390378465579!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38dc3da22494dda5%3A0xd85819982cef161e!2sTown%20Health%20Gym!5e0!3m2!1sen!2s!4v1641376339328!5m2!1sen!2s"
+                height="550" style="border:0;" allowfullscreen=""></iframe>
+        </div>
+    </div>
+</section>
+
+
+
+{% endblock content %}
